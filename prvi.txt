@@ -1,0 +1,36 @@
+typedef struct Student(
+	char name[30];
+	int bodovi;
+)Stud;
+
+
+int main(){
+
+	int brojac = 0;
+	char buffer [50];
+	int i=0;
+
+	FILE* fp=fopen("popis.txt", "r");
+	//ako je fp == NULL napravi nesto za provjeru npr printf("greska");
+	
+	while(!feof(fp)){
+		fgets(buffer, 50, fp)
+		brojac++;
+	}
+
+	Stud studenti = NULL;
+	studenti = (Stud*)malloc(sizeof(Stud)*brojac);
+
+	//oslobadanje memorije
+
+	while(!feof(fp)){
+		fscanf(fp," %s, %s, %d", Studenti->name &Studenti->bodovi)
+		i++;
+	}
+	
+
+
+	fclose(fp);
+	free(studenti);
+	return 0;
+}
