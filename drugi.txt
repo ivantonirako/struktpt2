@@ -1,0 +1,70 @@
+typedef struct _Person* Position;
+
+typedef struct _Person{
+	podaci
+	Position next;
+}Person;
+
+int main(){
+	Person Head = {.ime='', .prezime={0}, .godina=0, .next=NULL}
+	Position p = &Head;
+}
+
+int insertBegin(char* ime, char* prezime, int* godina, Position p){
+	Position newPerson = NULL;
+	newPerson = (Position)malloc(sizeof(Person));
+	newPerson->year=godina;
+	strcpy(newPerson->name, ime);
+	strcpy(newPerson->surname, prezime);
+	newPerson->next = NULL;
+	insertAfter(p, newPerson);
+}
+
+int insertAfter(Position p, Position newPerson){
+	newPerson->next = p->next;
+	p->next = newPerson;
+}
+
+int ispis(Position p){
+	for(Position q=p, q->next != NULL, q=q->next){
+		printf("", q->name...);	
+	}
+}
+
+int insertEnd(char* ime, char* prezime, int* godina, Position p){
+	Position newPerson = NULL;
+	newPerson = (Position)malloc(sizeof(Person));
+	newPerson->year=godina;
+	strcpy(newPerson->name, ime);
+	strcpy(newPerson->surname, prezime);
+	newPerson->next = NULL;
+	
+	while(p->next != NULL){
+		p = p-> next;
+	}
+	insertAfter(p, newPerson);
+}
+
+int findLastName(char* lastN, Position p){
+	Position q = NULL;
+	for(q = p->next; q != NULL, q = q->next){
+		if (strcmp(q->LastName, lastN) == 0) return 1;
+		//ovisno o returnu ispisujemo jel pronadeno
+		return 0;
+	}
+}
+
+int deletePerson(char* lastN, Position p){
+	Position curr = NULL;
+	Position prev = p;
+	curr = prev->next;
+	-usporedba 
+	if(...) je li to pronadeno prezime{
+		prev->next = curr->next;
+		free(curr);
+	}
+	else{
+		prev = prev->next;
+		curr = prev->next;
+	}
+}
