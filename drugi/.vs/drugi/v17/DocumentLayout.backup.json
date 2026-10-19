@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ivant\\OneDrive\\Desktop\\strukturept2\\struktpt2\\drugi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BA14C3A7-28F1-4885-8A24-EB0B44284881}|drugi\\drugi.vcxproj|C:\\Users\\ivant\\OneDrive\\Desktop\\strukturept2\\struktpt2\\drugi\\drugi\\drugizdk.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BA14C3A7-28F1-4885-8A24-EB0B44284881}|drugi\\drugi.vcxproj|solutionrelative:drugi\\drugizdk.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "drugizdk.c",
+              "DocumentMoniker": "C:\\Users\\ivant\\OneDrive\\Desktop\\strukturept2\\struktpt2\\drugi\\drugi\\drugizdk.c",
+              "RelativeDocumentMoniker": "drugi\\drugizdk.c",
+              "ToolTip": "C:\\Users\\ivant\\OneDrive\\Desktop\\strukturept2\\struktpt2\\drugi\\drugi\\drugizdk.c",
+              "RelativeToolTip": "drugi\\drugizdk.c",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-10-19T18:55:37.23Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
